@@ -18,6 +18,12 @@
     justify-content: space-between;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
 .links {
     display: flex; 
     justify-content:flex-end;
@@ -31,8 +37,13 @@
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 300px;
+}
+
+.hero-main, .hero-sec, .signup {
+    margin: 15px;
+    margin-right: 40px;
 }
 
 .header-right {
@@ -74,6 +85,9 @@
     display: flex;
     align-items: center;
     margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .photo-grid-all {
@@ -87,25 +101,42 @@
 }
 
 .photo-grid-item {
-    border: 3px solid lightskyblue;
+    border: 3px solid blue;
+    border-radius: 10px;
     width: 150px;
     height: 150px;
 }
 
-.footer {
+.bot-text {
+    color: grey;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.footer-item {
-    border: 1px solid #fff;
-    background-color: #D6E9FE;
-    height: 200px;
-    flex:1;
+.bottom-section {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer-one, .footer-three {
-    background-color: #5995da;
-    flex: initial;
-    width: 300px;
+.quote-container {
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote-line {
+    font-style: italic;
+    font-size: 36px;
+}
+.name {
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.footer {
+    background-color: #1f2937; /*blue*/
+    height: 100px;
 }
