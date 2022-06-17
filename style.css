@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .menu-container {
     color: #fff;
-    background-color: #5995DA; /*blue*/
+    background-color: #1f2937; /*blue*/
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -24,14 +25,43 @@
 
 .link-one, .link-two, .link-three {
     margin-left: 20px;
-}
+}   
 
 .header-container {
-    background-color: #D6E9FE;
+    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 300px;
+}
+
+.header-right {
+    background-color: grey;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    background-color: #3882F6;
+    padding: 0 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-sec {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .photo-grid-container {
@@ -43,6 +73,7 @@
 .photo-grid-title {
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 
 .photo-grid-all {
@@ -52,12 +83,13 @@
 .photo-grid {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .photo-grid-item {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
+    border: 3px solid lightskyblue;
+    width: 150px;
+    height: 150px;
 }
 
 .footer {
